@@ -1,0 +1,26 @@
+﻿<Window x:Class="MoneySaved.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MoneySaved"
+        mc:Ignorable="d"
+        Title="Money Saved" Height="371.855" Width="625.987" Background="Black" Icon="Pack-512.png" WindowStyle="ThreeDBorderWindow"
+        
+        >
+    <Grid Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Name="Money" Text="$999.00" FontFamily="GrilledCheese BTN Blk" FontSize="72" TextAlignment="Center" Foreground="White" ></TextBlock>
+        <TextBlock Grid.Row="1" Name="Count" Text="999" FontFamily="GrilledCheese BTN Blk" FontSize="32" TextAlignment="Center"  Foreground="White" ></TextBlock>
+        <TextBlock Grid.Row="2" Text="Cigarettes Not Purchased" FontFamily="GrilledCheese BTN Blk" TextAlignment="Center"  Foreground="White" ></TextBlock>
+        <TextBlock Grid.Row="3" Name="Days" Text="999" FontFamily="GrilledCheese BTN Blk" FontSize="32" TextAlignment="Center"  Foreground="White" Margin="0,22,0,0" ></TextBlock>
+        <TextBlock Grid.Row="4" Text="Days Since Oct 26" FontFamily="GrilledCheese BTN Blk" TextAlignment="Center"  Foreground="White" ></TextBlock>
+    </Grid>
+</Window>
